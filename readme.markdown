@@ -13,6 +13,6 @@
     
 3 - instale no projeto criado o template do is4
 
-    dotnet new is4admin --forcedotnet new -f is4admindotnet new -f is4admin
+    dotnet new is4admin --force
     
 4 - remova a controller inicial do projeto de sample. controllers/HomeController.cs

@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity_server_4", "Implementando_Auth_OIDC\Identity_server_4.csproj", "{88C01173-78AD-448A-8577-062BE8F69283}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{14D189DD-B26B-4713-8F84-DF139C656EAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{61B3B628-9C61-47FA-AB82-EB45D824DD90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientMVC", "ClientMVC\ClientMVC.csproj", "{336D2DED-B754-49A9-8B97-011029AB6840}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88C01173-78AD-448A-8577-062BE8F69283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C01173-78AD-448A-8577-062BE8F69283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C01173-78AD-448A-8577-062BE8F69283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C01173-78AD-448A-8577-062BE8F69283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336D2DED-B754-49A9-8B97-011029AB6840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336D2DED-B754-49A9-8B97-011029AB6840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336D2DED-B754-49A9-8B97-011029AB6840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336D2DED-B754-49A9-8B97-011029AB6840}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88C01173-78AD-448A-8577-062BE8F69283} = {14D189DD-B26B-4713-8F84-DF139C656EAE}
+		{336D2DED-B754-49A9-8B97-011029AB6840} = {61B3B628-9C61-47FA-AB82-EB45D824DD90}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {617BBD48-5D61-41F5-9F3B-7F5A04777630}
+	EndGlobalSection
+EndGlobal

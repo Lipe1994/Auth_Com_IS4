@@ -1,4 +1,7 @@
-# Como criei este projeto=>
+# Trata-se de 2 projetos, um servidor de oauth e um client para testar o IS4
+
+
+# Como criei o projeto com IS4:
 
 1 - crie o projeto dotnet mvc
 
